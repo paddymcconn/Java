@@ -3,9 +3,7 @@ package Compression.huffman;
 import java.util.PriorityQueue;
 
 /*
- * Huffman Compression Algorithm<br>
- *     This algorithm will compress the amount of bits necessary to store a given sequence of characters.
- *     In short it will compress a text and without losing any data it can decompress that.
+ * This algorithm will compress the amount of bits necessary to store a given sequence of characters.
  * 
  */
 public class huffman {
@@ -48,7 +46,7 @@ public class huffman {
     }
 
     /**
-     * This method creates the HuffmanTree from a given queue
+     * method creates the HuffmanTree from a given queue
      *
      * @param queue
      * @return HuffmanNode
@@ -63,7 +61,7 @@ public class huffman {
     }
 
     /**
-     * This methods receives a text and returns the compressed value for the given text.<BR>
+     * This methods receives a text and returns the compressed value for the given text.
      * E.g. for aabbbcd it will return 1010000110111
      * @param text
      * @return String
@@ -94,7 +92,7 @@ public class huffman {
 
     /**
      * It will replace the characters received from the text and replace by the new sequence
-     * of bites for each character.<br>
+     * of bytes for each character.
      * E.g. aabbbcd becomes 1010000110111
      *
      * @param text
@@ -137,7 +135,7 @@ public class huffman {
     }
 
     /**
-     *  Traverse through the HuffmanTree and generate the compressed bytes for each character. <br>
+     *  Traverse through the HuffmanTree and generate the compressed bytes for each character.
      *  It also store them into an array of Strings
      *  E.g. for a three created from aabbbcd it will generate the following sequence of bits
      *  b - 0
