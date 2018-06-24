@@ -88,15 +88,7 @@ public class HuffmanTest {
         Assert.assertNull(root.right.right);
     }
 
-    /**
-     *          aabbbcd
-     *
-     *              -7
-     *          b3      -4
-     *              a2      -2
-     *                  c1      d1
-     *
-     */
+   
     @Test
     public void createHuffmanTreeTest() {
         int[] frequencies = h.createFrequencyTable("aabbbcd".toCharArray());
