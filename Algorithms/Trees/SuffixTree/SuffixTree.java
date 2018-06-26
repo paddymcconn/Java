@@ -1,4 +1,4 @@
-package trees.suffixTree;
+package trees.suffixtree;
 
 import java.util.ArrayList;
 import java.util.List;
