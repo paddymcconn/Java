@@ -1,4 +1,4 @@
-package academy.learnprogramming.algorithm.suffixtree;
+package trees.suffixtree;
 
 import org.junit.Assert;
 import org.junit.Before;
