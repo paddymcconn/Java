@@ -1,4 +1,4 @@
-package trees.suffixTree;
+package trees.suffixtree;
 
 public class End
 {
